@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeguireYoann_TP3_A23</title>
+    <link rel="stylesheet" href="client/css/style.css">
+    <script src="client/utilitaires/jquery-3.6.3.min.js"></script>
+    <script src="client/utilitaires/bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+    <script src="client/models/Patient.js"></script>
+    <script src="client/models/Hospitalisation.js"></script>
+    <script src="client/models/Etablissement.js"></script>
+    <script src="client/js/global.js"></script>
+    <script src="client/js/vues.js"></script>
+    <script src="client/js/requetes.js"></script>
+</head>
+
+<body onLoad="chargerDonnee();">
+    <!-- Barre de navigation -->
+    <div class="header">
+        <p>Photo by <a
+                href="https://unsplash.com/@camstejim?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">camilo
+                jimenez</a> on <a
+                href="https://unsplash.com/photos/red-vehicle-in-timelapse-photography-vGu08RYjO-s?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+        </p>
+    </div>
+    <nav class="navbar">
+        <a class="navbar-brand nav-link" href="#" onclick="vider()">
+            <img src="client/images/diagnosis.png">
+            <span>Gestion des hospitalisations</span>
+            </a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#" onclick="listerPatients()">
+                    <img src="client/images/charity.png">
+                    <span>Listes des patients</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" onclick="listerEtablissements()">
+                    <img src="client/images/nurse.png">
+                    <span>Listes des établissements</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" onclick="listerHospitalisations()">
+                    <img src="client/images/hospital.png">
+                    <span>Listes des hospitalisations</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" onclick="afficherHospitalisationParPatient()">
+                    <img src="client/images/medical-report.png">
+                    <span>Hospitalisations par patient</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" onclick="afficherHospitalisationParAttribut()">
+                    <img src="client/images/monitor.png">
+                    <span>Hospitalisations par établissements et par spécialité</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Fin de labarre de navigation-->
+    <!-- Zone de contenu -->
+    <main class="content">
+        <button id="bouton-cacher" onclick="cacherContenu()" class="visible non-visible"></button>
+        <div id="msg"></div>
+        <div id="contenu"></div>
+    </main>
+    <!-- Fin de Zone de contenu-->
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<listeEtablissements>
+  <etablissement>
+    <code>1234</code>
+    <nom>Centre hospitalier de St. Mary</nom>
+    <adresse>3830, avenue Lacombe Montréal, Qc</adresse>
+    <codePostale>H3T 1M5</codePostale>
+    <telephone>(514)-345-3511</telephone>
+  </etablissement>
+  <etablissement>
+    <code>2346</code>
+    <nom>Hôpital Saint-Luc du CHUM</nom>
+    <adresse>1058, rue Saint-Denis, Montréal, Qc</adresse>
+    <codePostale>H2X 3J4</codePostale>
+    <telephone>(514)-890-8000</telephone>
+  </etablissement>
+  <etablissement>
+    <code>3980</code>
+    <nom>Hôpital Santa Cabrini</nom>
+    <adresse>5655, rue Saint-Zotique Est Montréal,Qc</adresse>
+    <codePostale>H1T 1P7</codePostale>
+    <telephone>(514)-252-6000</telephone>
+  </etablissement>
+  <etablissement>
+    <code>4177</code>
+    <nom>Hôpital Jean-Talon</nom>
+    <adresse>1385, rue Jean-Talon Est Montréal, Qc</adresse>
+    <codePostale>H2E 1S6</codePostale>
+    <telephone>(514)-495-6767</telephone>
+  </etablissement>
+  <etablissement>
+    <code>7306</code>
+    <nom>Hôpital Fleury</nom>
+    <adresse>2180, rue Fleury Est Montréal, Qc</adresse>
+    <codePostale>H2B 1K3</codePostale>
+    <telephone>(514)-384-2000</telephone>
+  </etablissement>
+  <etablissement>
+    <code>8895</code>
+    <nom>Hôpital Rivière-des-Prairies</nom>
+    <adresse>7070, boulevard Perras Montréal, Qc</adresse>
+    <codePostale>H1E 1A4</codePostale>
+    <telephone>(514)-323-7260</telephone>
+  </etablissement>
+  <etablissement>
+    <code>3655</code>
+    <nom>Hôpital St-Hubert</nom>
+    <adresse>7070, boulevard Perras Montréal, Qc</adresse>
+    <codePostale>H1E 1A4</codePostale>
+    <telephone>(514)-323-7260</telephone>
+  </etablissement>
+</listeEtablissements>
